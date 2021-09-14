@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>ChatNilson</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="form-section">
+           <div class="form-wrapper">
+        <form action="">
+          <div class="input-block"><img src ="./img/photo-01.svg" alt="icon" class="icon">
+            <label for="Olá">Olá, eu sou o Chatnilson, tudo bem?<br>
+            Para começarmos, preciso saber seu nome:</label>
+            <input type="text" id="name" placeholder="digite seu nome"/>
+          </div>
+            <div class="input-block"><img src ="./img/photo-01.svg" alt="icon" class="icon">
+            <label for="cidade">Que satisfação, Fulano! <br>
+            Agora sei seu nome, qual a cidade e estado que você mora?</label>
+            <input type="text" id="city" placeholder="digite a cidade e estado" />
+          </div>
+            <div class="input-block"><img src ="./img/photo-01.svg" alt="icon" class="icon">
+            <label for="data">Legal, agora sabemos sua cidade e estado.<br>
+            Quando foi que você nasceu?</label>
+            <input type="date" id="date"/>
+          </div>
+            <div class="input-block"><img src ="./img/photo-01.svg" alt="icon" class="icon">
+            <label for="email">Agora me fala teu e-mail, por gentileza:</label>
+            <input type="email" id="email"/>
+          </div>
+            <div class="input-block"><img src ="./img/photo-01.svg" alt="icon" class="icon">
+            <label for="avaliação">Você finalizou o teste, faça uma avaliação
+                sobre o processo que realizou ate chegar aqui.<br>
+                 Nós agradecemos!
+            </label>
+            <star-rater data-rating="1"></star-rater>
+          </div>
+          <button type="submit" class="btn-login">Salvar</button>
+        </form>
+      </div>
+    </section>
+
+    <ul class="squares"> </ul>
+
+    <script src="scripts.js"></script>
+    <script src="StarRater.js"></script>
+  </body>
+</html>
